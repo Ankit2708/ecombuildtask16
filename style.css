@@ -439,3 +439,41 @@ header ul a{
     border-radius:7px;
     padding:5px;
 }
+.pagination{
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .pagination a{
+    text-decoration: none;
+    color:#00695c;
+    padding:0.5rem;
+    border: 1px solid #00695c;
+    margin:0 1rem;
+  }
+  .pagination a:hover,
+  .pagination a:active
+  .pagination a:active{
+    background: #00695c;
+    color:white;
+  }
+  
+.order {
+    padding:8px;
+    color:white;
+    border:none;
+    font-size:15px;
+    font-weight: bold;
+    border-radius: 10%;
+    background: #56CCF2;
+    align-self: flex-end;
+}
+
+.order-span {
+    width: 100%;
+    background: #56CCF2;
+    margin: auto;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+} 
+ 
