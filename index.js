@@ -252,6 +252,10 @@ function getCart() {
 
     })
 }
+async function getOrderHistory(){
+    const orderList = await axios.get('http://localhost:3000/order');
+}
+
 function placeOrder(){
     axios.get('http://localhost:3000/orders')
     .then((res)=>{
